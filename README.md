@@ -28,3 +28,11 @@ or the German version:
 ```bash
 npm run previewGerman
 ```
+# Note to Windows users
+
+Open package.json and change the line 
+```"resume": "./node_modules/.bin/resume"```
+to conform to windows path conventions, e.g.
+```"resume": "home/users/username/git/resume"```
+
+(tested on Windows 10).
